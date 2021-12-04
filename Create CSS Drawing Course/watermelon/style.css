@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #69506d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.watermelon {
+    height: 16rem;
+    width: 32rem;
+    background-color: #f26c64;
+    border-left: 2rem solid #5af5b6;
+    border-bottom: 2rem solid #5af5b6;
+    border-right: 2rem solid #5af5b6;
+    border-bottom-left-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+span {
+    width: 1rem;
+    height: 1rem;
+    background-color: #262626;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1.9rem;
+}
+

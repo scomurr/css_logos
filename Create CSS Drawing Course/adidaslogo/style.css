@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.adidas{
+    width: 20.6rem;
+    height: 12rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.shape{
+    height: 15rem;
+    width: 4.6rem;
+    background-color: #111;
+    position: absolute;
+    transform: rotate(-31deg);
+}
+
+.s1 {
+    top: 8.6rem;
+    left: 3.6rem;
+}
+
+.s2 {
+    top: 4.5rem;
+    left: 8.2rem;
+}
+
+.s3{
+    top: .4rem;
+    left: 12.9rem;
+}

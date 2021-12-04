@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #233637;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 125%;
+}
+
+.logo {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 6rem;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 85%;
+    height: 85%;
+    background-color: transparent;
+    border: 1.2rem solid white;
+    border-radius: 25%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-big {
+    height: 65%;
+    width: 65%;
+    background-color: transparent;
+    border: 1.2rem solid white;
+    border-radius: 50%;
+}
+
+.circle-small {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background-color: white;
+    border-radius: 50%;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #233637;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.pepsi {
+    height: 30rem;
+    width: 30rem;
+    background-color: #34588e;
+    border-radius: 50%;
+    border: 1rem solid white;
+    position: relative;
+    overflow: hidden;
+}
+
+.pepsi::before {
+    content: "";
+    position: absolute;
+    height: 40rem;
+    width: 50rem;
+    border-radius: 25%;
+    background-color: white;
+    top: -16rem;
+    left: -24rem;
+    transform: rotate(-18deg)
+}
+
+.pepsi::after {
+    content: "";
+    position: absolute;
+    height: 50rem;
+    width: 55rem;
+    border-radius: 50%;
+    background-color: red;
+    top: -27.5rem;
+    left: -30rem;
+}
+

@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #233637;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.panda {
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    border: 1.2rem solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eye-left {
+    position: absolute;
+    width: 10.8rem;
+    height: 5.8rem;
+    background-color: black;
+    border-radius: 0 0 11.5rem 11.5rem;
+    left: 1rem;
+    top: 45%;
+    overflow: hidden;
+    transform: rotate(30deg);
+}
+
+.left-ball {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border: 1.2rem solid white;
+    border-radius: 50%;
+    top: -50%;
+    left: 32%;
+}
+
+.eye-right {
+    position: absolute;
+    width: 10.8rem;
+    height: 5.8rem;
+    background-color: black;
+    border-radius: 0 0 11.5rem 11.5rem;
+    right: 1rem;
+    top: 45%;
+    overflow: hidden;
+    transform: rotate(-30deg);
+}
+
+.right-ball {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border: 1.2rem solid white;
+    border-radius: 50%;
+    top: -50%;
+    right: 32%;
+}
+
+.nose {
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: black;
+    border-radius: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth {
+    position: absolute;
+    width: 5rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ear-left {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: black;
+    left: -3.5rem;
+    top: -3rem;
+    z-index: -1;
+}
+
+.ear-right {
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: black;
+    right: -3.5rem;
+    top: -3rem;
+    z-index: -1;
+}
+
+

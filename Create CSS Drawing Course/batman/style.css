@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #233637;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 125%;
+}
+
+.oval {
+    height: 13rem;
+    width: 23rem;
+    background-color: #fdff00;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.logo {
+    height: 11.2rem;
+    width: 21.2rem;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.o1 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 3.3rem;
+    height: 7.0rem;
+    border-radius: 50%;
+    transform: rotate(-41deg);
+    top:6.7rem;
+    left: 4.4rem;
+}
+
+.o4 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 3.3rem;
+    height: 7.0rem;
+    border-radius: 50%;
+    transform: rotate(41deg);
+    top:6.7rem;
+    right: 4.4rem;
+}
+
+.o2 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 3.8rem;
+    height: 7.0rem;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+    top:7.3rem;
+    left: 6.8rem;
+}
+
+.o3 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 3.8rem;
+    height: 7.0rem;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    top:7.3rem;
+    right: 6.8rem;
+}
+
+.o5 {
+    position: absolute;
+    width: 3.7rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #fdff00;
+    top: 0;
+    left: 5.7rem;
+}
+
+.sq1 {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    background-color: #fdff00;
+    top: 0;
+    left: 7.4rem;
+}
+
+.o6 {
+    position: absolute;
+    width: 3.7rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #fdff00;
+    top: 0;
+    right: 5.7rem;
+}
+
+.sq2 {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    background-color: #fdff00;
+    top: 0;
+    right: 7.4rem;
+}
+
+.ears {
+    position: absolute;
+    border-bottom: 1.2rem solid #fdff00;
+    border-left: .6rem solid black;
+    border-right: .6rem solid black;
+    width: 2.22rem;
+    top:0;
+    left: 9.49rem;
+    transform: rotate(180deg);
+}
+
+
+
+
