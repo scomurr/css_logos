@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box !important;
+}
+
+html {
+    font-size: 125%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #74c3cc;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 10%;
+    margin: .3rem;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #69a2aa;
+    padding: 2.5rem;
+    border-radius: 2rem;
+    width: 32rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    margin: 2rem;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #0d1718 ;
+    text-decoration: none;
+}
+
+.container {
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 10rem;
+    width: 10rem;
+    background-color: #69a2aa;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: .5rem;
+}
