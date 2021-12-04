@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #6fbec2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.tree_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.tree {
+    background-color: darkgreen;
+}
+
+.bough3 {
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    z-index: 3;
+}
+
+.bough3::before {
+    background: #6fbec2;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 60px 0 0 60px / 300px 0 0  300px;
+    content: '';
+    position: absolute;
+    left: -13rem;
+    top: -33.5rem;
+    transform: rotate(215deg);
+}
+
+.bough3::after {
+    background: #6fbec2;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 60px 0 0 60px / 300px 0 0  300px;
+    content: '';
+    position: absolute;
+    right: -13rem;
+    top: -33.5rem;
+    transform: rotate(325deg);
+}
+
+.bough2 {
+    height: 12rem;
+    width: 38rem;
+    position: relative;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    z-index: 1;
+}
+
+.bough2::before {
+    background: #6fbec2;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 60px 0 0 60px / 300px 0 0  300px;
+    content: '';
+    position: absolute;
+    left: -9rem;
+    top: -31.5rem;
+    transform: rotate(226deg);
+}
+
+.bough2::after {
+    background: #6fbec2;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 60px 0 0 60px / 300px 0 0  300px;
+    content: '';
+    position: absolute;
+    right: -10rem;
+    top: -31.5rem;
+    transform: rotate(316deg);
+}
+
+.bough1 {
+    height: 15rem;
+    width: 50rem;
+    position: relative;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.bough1::before {
+    background: #6fbec2;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 60px 0 0 60px / 300px 0 0  300px;
+    content: '';
+    position: absolute;
+    left: -9rem;
+    top: -29rem;
+    transform: rotate(226deg);
+}
+
+.bough1::after {
+    background: #6fbec2;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 60px 0 0 60px / 300px 0 0  300px;
+    content: '';
+    position: absolute;
+    right: -10rem;
+    top: -29rem;
+    transform: rotate(316deg);
+}
+
+.trunk {
+    width: 8rem;
+    height: 5rem;
+    background-color: rgb(73, 4, 4);
+}
+
+.arrow_container {
+    z-index: 4;
+    position: absolute;
+    left: 19.5rem;
+    top: -7rem;
+    
+}
+
+.arrow {
+    position: absolute;
+    border-top: 3.5rem solid gold;
+    border-left: 4.8rem solid transparent;
+    border-right: 4.8rem solid transparent;
+    border-bottom: 4.8rem solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.top {
+    top: 3.9rem;
+    left: .7rem;
+}
+
+.left {
+    top: 2.1rem;
+    left: -1.7rem;
+    transform: rotate(72deg);
+}
+
+.right {
+    top: 2.1rem;
+    left: 3.1rem;
+    transform: rotate(-72deg);
+}
+
+.present {
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    border-radius: 14%;
+    position: absolute;
+    z-index: 4;
+    bottom: -1rem;
+    left: 10rem;
+}
+
+.present::before{
+    content: "";
+    width: 2rem;
+    height: 10rem;
+    background-color: gold;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.present::after{
+    content: "";
+    height: 2rem;
+    width: 10rem;
+    background-color: gold;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.bulb {
+    z-index: 6;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(202, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 25rem;
+    top:7rem;
+    box-shadow: -2rem 5rem 0 0 gold,
+                -3rem 17rem 0 0 gold,
+                15rem 25rem 0 0 gold,
+                -8rem 8rem 0 0 blue,
+                8rem 22rem 0 0 blue,
+                -10rem 23rem 0 0 blue,
+                0rem 12rem 0 0 rgb(202, 0, 0),
+                -2rem 24rem 0 0 rgb(202, 0, 0),
+                8rem 8rem 0 0 rgb(202, 0, 0);
+                ;
+}
+
+
+
